@@ -11,4 +11,3 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 }
-//https://github.com/759233960/xrweather.git
