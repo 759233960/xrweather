@@ -11,25 +11,26 @@
         android:background="?attr/colorPrimary">
 
         <TextView
+            android:id="@+id/title_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/title_text"
+            android:layout_centerInParent="true"
             android:textColor="#fff"
-            android:textSize="20sp"
-            android:layout_centerInParent="true"/>
+            android:textSize="20sp"/>
 
         <Button
+            android:id="@+id/back_button"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:id="@+id/back_button"
-            android:layout_margin="16dp"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
+            android:layout_margin="16dp"
             android:background="@drawable/arrow_back128"/>
     </RelativeLayout>
+
     <ListView
+        android:id="@+id/list_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/list_view"/>
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
